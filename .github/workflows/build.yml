@@ -30,6 +30,6 @@ jobs:
         push: true
         tags: crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/iptables-book:latest
         platforms: linux/amd64
-        file: github-dockerfile
+        file: Dockerfile
         provenance: false
         sbom: false
