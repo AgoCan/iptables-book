@@ -1,6 +1,5 @@
 FROM node:10.24.1-alpine3.11 as builder
-RUN npm config set -g registry https://npmreg.proxy.ustclug.org/ && \
-    npm install gitbook-cli -g 
+RUN npm install gitbook-cli -g 
 
 WORKDIR /app
 COPY book.json .
