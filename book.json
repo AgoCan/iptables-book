@@ -1,0 +1,49 @@
+{
+  "title": "iptables",
+  "keywords": "Keywords",
+  "description": "Description",
+  "author":"hankbook",
+  "language": "zh-hans",
+  "links" : {
+    "sidebar" : {}
+  },
+  "styles": {
+    "website": "styles/website.css"
+  },
+
+  "plugins": [
+    "-highlight", 
+    "toggle-chapters", 
+    "codeblock-filename", 
+    "splitter", 
+    "-search",
+		"-lunr", 
+    "search-pro", 
+    "theme-default", 
+    "prism", 
+    "prism-themes", 
+    "theme-comscore",
+		"include", 
+    "favicon", 
+    "anchors", 
+    "tbfed-pagefooter", 
+    "hide-element"
+  ],
+    "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+    "tbfed-pagefooter": {
+    "copyright":"Copyright &copy hankbook.cn 2020",
+    "modify_label": "该文件修订时间：",
+    "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["Gitbook Use"]
+    },
+    "prism": {
+        "css": [
+            "prism-themes/themes/prism-ghcolors.css"
+        ]
+    }
+    }
